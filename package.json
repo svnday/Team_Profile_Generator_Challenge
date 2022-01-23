@@ -1,0 +1,26 @@
+{
+  "name": "team_profile_generator_challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svnday/Team_Profile_Generator_Challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/svnday/Team_Profile_Generator_Challenge/issues"
+  },
+  "homepage": "https://github.com/svnday/Team_Profile_Generator_Challenge#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0",
+    "jest": "^27.4.7"
+  }
+}
