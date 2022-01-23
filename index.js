@@ -13,12 +13,12 @@ function createEmployee() {
         {
             type: "list",
             message: "What is the employee's role?",
-            name: "role",
             choices: [
                 "Manager",
                 "Engineer",
                 "Intern"
-            ]
+            ],
+            name: "role"
         },
         {
             message: "What is the employee's ID?",
@@ -29,4 +29,33 @@ function createEmployee() {
             name: "email"
         }
     ])
+    .then(function(role){
+        let roleDetails = "";
+        if (role === "Manager") {
+            roleDetails = "Office Number";
+        } 
+        else if (role === "Engineer") {
+            roleDetails = "Github";
+        } 
+        else {
+            roleDetails = "school"
+        }
+        inquirer.prompt([{
+                message: `Please enter Employee's ${roleDetails}`,
+                name: "Role details"
+            },
+            {
+                message: "Do you want to add an additional employee?",
+                type: "list",
+                name: "addEmployee",
+                choices: [
+                    "yes",
+                    "no"
+                ]
+            }
+        ])
+    })
 }
+
+createEmployee();
+
