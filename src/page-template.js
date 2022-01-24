@@ -1,4 +1,4 @@
-function generateHTML(data) {
+function generateHTML() {
     return `
     
 <!DOCTYPE html>
