@@ -29,3 +29,9 @@ WHEN I select the intern option
 THEN I am prompted to enter the intern’s name, ID, email, and school, and I am taken back to the menu  
 WHEN I decide to finish building my team  
 THEN I exit the application, and the HTML is generated  
+
+
+Link to GitHub repo: [https://github.com/svnday/Team_Profile_Generator_Challenge](https://github.com/svnday/Team_Profile_Generator_Challenge)  
+Link to sample HTML page: [https://github.com/svnday/Team_Profile_Generator_Challenge/blob/main/dist/team_profile.html](https://github.com/svnday/Team_Profile_Generator_Challenge/blob/main/dist/team_profile.html)  
+Link to demo video: [https://streamable.com/1qj089](https://streamable.com/1qj089)  
+Image of dynamically generated HTML Page from demo: ![Image](https://i.imgur.com/IayJOe8.png)
