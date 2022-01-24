@@ -1,7 +1,7 @@
 function generateHTML(data) {
     return `
     
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -20,75 +20,7 @@ function generateHTML(data) {
     <div class="d-flex container justify-content-center">
         <div class="d-flex card-deck col-9 flex-wrap justify-content-center align-self-center">
 
-            <div class="card rounded shadow m-4 col-3" style="width: 15rem;">
-                <div class="card-header bg-primary text-white">
-                    <p>Jared</p>
-                    <p>Manager</p>
-                </div>
-                <div>
-                    <ul class="list-group col">
-                        <li class="list-group-item">ID: </li>
-                        <li class="list-group-item">Email: </li>
-                        <li class="list-group-item">Office Number: </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="card rounded shadow m-4 col-3" style="width: 15rem;">
-                <div class="card-header bg-primary text-white">
-                    <p>Jared</p>
-                    <p>Manager</p>
-                </div>
-                <div>
-                    <ul class="list-group col">
-                        <li class="list-group-item">ID: </li>
-                        <li class="list-group-item">Email: </li>
-                        <li class="list-group-item">Office Number: </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="card rounded shadow m-4 col-3" style="width: 15rem;">
-                <div class="card-header bg-primary text-white">
-                    <p>Jared</p>
-                    <p>Manager</p>
-                </div>
-                <div>
-                    <ul class="list-group col">
-                        <li class="list-group-item">ID: </li>
-                        <li class="list-group-item">Email: </li>
-                        <li class="list-group-item">Office Number: </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="card rounded shadow m-4 col-3" style="width: 15rem;">
-                <div class="card-header bg-primary text-white">
-                    <p>Jared</p>
-                    <p>Manager</p>
-                </div>
-                <div>
-                    <ul class="list-group col">
-                        <li class="list-group-item">ID: </li>
-                        <li class="list-group-item">Email: </li>
-                        <li class="list-group-item">Office Number: </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="card rounded shadow m-4 col-3" style="width: 15rem;">
-                <div class="card-header bg-primary text-white">
-                    <p>Jared</p>
-                    <p>Manager</p>
-                </div>
-                <div>
-                    <ul class="list-group col">
-                        <li class="list-group-item">ID: </li>
-                        <li class="list-group-item">Email: </li>
-                        <li class="list-group-item">Office Number: </li>
-                    </ul>
-                </div>
-            </div>
+            
 
         </div>
     </div>
